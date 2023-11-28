@@ -47,7 +47,7 @@ const RatingReviews = () => {
 										<img
 											key={index}
 											alt={product.name}
-											src={`http://localhost:3001/uploads/products/${img}`}
+											src={`https://luxurystorefrontend.vercel.app/uploads/products/${img}`}
 											className="w-full h-full object-cover"
 										/>
 									);
